@@ -56,6 +56,8 @@
       </div>
     </div>
   </section>
+     <!-- Footer -->
+    <Footer />
 </template>
 
 <script setup>
@@ -72,6 +74,7 @@ import PhotoNadia     from '../assets/nadia.png'
  import PhotoSara      from '../assets/sara.png'
  import PhotoIssam     from '../assets/issam.png'
  import PhotoSofia     from '../assets/sofia.png'
+import Footer            from '../components/Footer.vue'
 
 // préparer les données
 const photos = [

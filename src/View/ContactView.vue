@@ -18,12 +18,15 @@
       </div>
     </div>
   </section>
+     <!-- Footer -->
+    <Footer />
 </template>
 
 <script setup>
 import ContactForm from '../components/ContactForm.vue'
 import MapEmbed    from '../components/MapEmbed.vue'
 import services    from '../data/services.json'
+import Footer            from '../components/Footer.vue'
 
 function onSubmit(data) {
   console.log('Contact data:', data)

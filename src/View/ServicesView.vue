@@ -34,6 +34,8 @@
       </div>
     </div>
   </section>
+     <!-- Footer -->
+    <Footer />
 </template>
 
 <script setup>
@@ -54,6 +56,7 @@ import ProfessionalCard  from '../components/ProfessionalCard.vue'
 import PhotoSophie       from '../assets/karim.png'
 import PhotoMoussa       from '../assets/sofia.png'
 import PhotoAlice        from '../assets/youssef.png'
+import Footer            from '../components/Footer.vue'
 
 const photos = [ PhotoSophie, PhotoMoussa, PhotoAlice ]
 const professionals = prosData.map((p,i)=>({
