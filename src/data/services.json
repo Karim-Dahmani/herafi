@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Plomberie",     "description": "Installation, réparation…" },
+  { "id": 2, "name": "Électricité",   "description": "Services électriques…" },
+  { "id": 3, "name": "Climatisation", "description": "Installation et maintenance…" },
+  { "id": 4, "name": "Menuiserie",    "description": "Travaux de menuiserie…" },
+  { "id": 5, "name": "Peinture",      "description": "Services de peinture…" },
+  { "id": 6, "name": "Bricolage",     "description": "Petits et grands travaux…" }
+]
