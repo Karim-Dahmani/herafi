@@ -5,7 +5,7 @@ import MarketplaceView from '../View/MarketplaceView.vue'
 import ContactView     from '../View/ContactView.vue'
 
 const routes = [
-  { path: '/',           component: HomeView },
+  { path: '/herafi',           component: HomeView },
   { path: '/services',   component: ServicesView },
   { path: '/marketplace',component: MarketplaceView },
   { path: '/contact',    component: ContactView },
