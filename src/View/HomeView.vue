@@ -105,7 +105,7 @@
           </div>
           <div class="card info-card">
             <ul>
-              <li><strong>Adresse:</strong> 123 bd Mohamed V, Casablanca</li>
+              <li><strong>Adresse:</strong> 45 Boulevard Abdelmoumen, Casablanca, Maroc</li>
               <li><strong>Téléphone:</strong> +212 522 123 456</li>
               <li><strong>Horaires:</strong> Lun–Ven 8h30–18h30</li>
             </ul>

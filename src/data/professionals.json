@@ -1,68 +1,32 @@
 [
-  {
-    "id": 1,
-    "name": "Youssef Mansouri",
-    "category": "Plomberie",
-    "location": "Casablanca Centre",
-    "rating": 4.8,
-    "reviews": 52
-  },
-  {
-    "id": 2,
-    "name": "Hassan El Idrissi",
-    "category": "Plomberie",
-    "location": "Casablanca Nord",
-    "rating": 4.6,
-    "reviews": 34
-  },
-  {
-    "id": 3,
-    "name": "Karim Bouziane",
-    "category": "Plomberie",
-    "location": "Casablanca Sud",
-    "rating": 4.7,
-    "reviews": 41
-  },
-
-  {
-    "id": 4,
-    "name": "Nadia El Amrani",
-    "category": "Électricité",
-    "location": "Rabat Centre",
-    "rating": 4.9,
-    "reviews": 68
-  },
-  {
-    "id": 5,
-    "name": "Adil Kettani",
-    "category": "Électricité",
-    "location": "Rabat Agdal",
-    "rating": 4.5,
-    "reviews": 29
-  },
-
-  {
-    "id": 6,
-    "name": "Sara Cherkaoui",
-    "category": "Climatisation",
-    "location": "Casablanca Nord",
-    "rating": 4.7,
-    "reviews": 38
-  },
-  {
-    "id": 7,
-    "name": "Issam Fassi",
-    "category": "Climatisation",
-    "location": "Casablanca Sud",
-    "rating": 4.8,
-    "reviews": 45
-  },
-     {
-     "id": 8,
-    "name": "Sofia Bennis",
-     "category": "Menuiserie",
-     "location": "Marrakech Centre",
-     "rating": 4.6,
-     "reviews": 31
-   }
+  { "id": 1, "name": "Youssef Mansouri", "category": "Plombier", "location": "Casablanca Anfa", "rating": 4.8, "reviews": 52 },
+  { "id": 2, "name": "Hassan El Idrissi", "category": "Electricien", "location": "Casablanca Sidi Belyout", "rating": 4.6, "reviews": 34 },
+  { "id": 3, "name": "Karim Bouziane", "category": "Chauffagiste", "location": "Casablanca Maârif", "rating": 4.7, "reviews": 41 },
+  { "id": 4, "name": "Adil Kettani", "category": "Frigoriste", "location": "Casablanca Hay Hassani", "rating": 4.5, "reviews": 29 },
+  { "id": 5, "name": "Issam Fassi", "category": "Serrurier", "location": "Mohammedia", "rating": 4.8, "reviews": 45 },
+  { "id": 6, "name": "Omar Rachidi", "category": "Vitrier", "location": "Casablanca Sidi Moumen", "rating": 4.6, "reviews": 27 },
+  { "id": 7, "name": "Tariq Lahlou", "category": "Menuisier", "location": "Casablanca Roches Noires", "rating": 4.9, "reviews": 39 },
+  { "id": 8, "name": "Mehdi Oubaha", "category": "Antenniste", "location": "Nouaceur", "rating": 4.4, "reviews": 22 },
+  { "id": 9, "name": "Amine Barakat", "category": "Technicien en volets roulants", "location": "Berrechid", "rating": 4.5, "reviews": 33 },
+  { "id": 10, "name": "Rachid Bouhmala", "category": "Technicien informatique", "location": "Casablanca Ben M’Sick", "rating": 4.7, "reviews": 48 },
+  { "id": 11, "name": "Mounir Tazi", "category": "Réparateur d’électroménager", "location": "Casablanca Aïn Sebaâ", "rating": 4.6, "reviews": 31 },
+  { "id": 12, "name": "Said Hakam", "category": "Technicien TV/audio/vidéo", "location": "Settat", "rating": 4.8, "reviews": 36 },
+  { "id": 13, "name": "Nabil Hamdi", "category": "Technicien en alarme et sécurité", "location": "El Jadida", "rating": 4.9, "reviews": 54 },
+  { "id": 14, "name": "Fouad Idrissi", "category": "Plombier", "location": "Casablanca Sbata", "rating": 4.7, "reviews": 43 },
+  { "id": 15, "name": "Samir Louardi", "category": "Electricien", "location": "Casablanca Aïn Chock", "rating": 4.6, "reviews": 38 },
+  { "id": 16, "name": "Noureddine Achour", "category": "Chauffagiste", "location": "Médiouna", "rating": 4.5, "reviews": 26 },
+  { "id": 17, "name": "Walid Benjelloun", "category": "Frigoriste", "location": "Casablanca Hay Mohammadi", "rating": 4.8, "reviews": 42 },
+  { "id": 18, "name": "Anas Laaroussi", "category": "Serrurier", "location": "Casablanca Moulay Rachid", "rating": 4.7, "reviews": 37 },
+  { "id": 19, "name": "Brahim Semlali", "category": "Vitrier", "location": "Casablanca Al Fida", "rating": 4.6, "reviews": 29 },
+  { "id": 20, "name": "Imad Karimi", "category": "Menuisier", "location": "Casablanca Sidi Bernoussi", "rating": 4.9, "reviews": 50 },
+  { "id": 21, "name": "Yassine Tifnouti", "category": "Antenniste", "location": "Casablanca Mers Sultan", "rating": 4.5, "reviews": 23 },
+  { "id": 22, "name": "Mustapha Ghazali", "category": "Technicien en volets roulants", "location": "Aïn Harrouda", "rating": 4.7, "reviews": 40 },
+  { "id": 23, "name": "Reda Azouzi", "category": "Technicien informatique", "location": "Casablanca Hay Hassani", "rating": 4.6, "reviews": 32 },
+  { "id": 24, "name": "Hamza Ziani", "category": "Réparateur d’électroménager", "location": "Casablanca Sidi Othmane", "rating": 4.8, "reviews": 41 },
+  { "id": 25, "name": "Abdelali Kabbaj", "category": "Technicien TV/audio/vidéo", "location": "Casablanca Sidi Moumen", "rating": 4.9, "reviews": 49 },
+  { "id": 26, "name": "Mohamed Bouazzaoui", "category": "Technicien en alarme et sécurité", "location": "Casablanca Hay Mohammadi", "rating": 4.6, "reviews": 27 },
+  { "id": 27, "name": "Ilyas Rahmani", "category": "Plombier", "location": "Casablanca Aïn Chock", "rating": 4.4, "reviews": 19 },
+  { "id": 28, "name": "Othman Chraibi", "category": "Electricien", "location": "Nouaceur", "rating": 4.7, "reviews": 46 },
+  { "id": 29, "name": "Zakaria Mellouk", "category": "Chauffagiste", "location": "Casablanca Aïn Sebaâ", "rating": 4.5, "reviews": 24 },
+  { "id": 30, "name": "Ayoub Jabrane", "category": "Frigoriste", "location": "Benslimane", "rating": 4.8, "reviews": 44 }
 ]

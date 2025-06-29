@@ -17,7 +17,7 @@
       <div class="footer-col">
         <h3>Contact</h3>
         <ul class="contact-list">
-          <li>123 Boulevard Ex</li>
+          <li>45 Boulevard Abdelmoumen</li>
           <li>Casablanca, Maroc</li>
           <li>+212 522 123 456</li>
           <li><a href="mailto:info@herafi.com">info@herafi.com</a></li>
