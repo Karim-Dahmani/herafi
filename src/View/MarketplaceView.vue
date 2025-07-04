@@ -66,23 +66,26 @@ import { useRouter }         from 'vue-router'
 import ProfessionalCard      from '../components/ProfessionalCard.vue'
 import prosData              from '../data/professionals.json'
 // Professionals + photos
-import PhotoYoussef   from '../assets/youssef.png'
-import PhotoHassan    from '../assets/hassan.png'
-import PhotoKarim     from '../assets/karim.png'
-import PhotoNadia     from '../assets/nadia.png'
- import PhotoAdil      from '../assets/adil.png'
- import PhotoSara      from '../assets/sara.png'
- import PhotoIssam     from '../assets/issam.png'
- import PhotoSofia     from '../assets/sofia.png'
-import Footer            from '../components/Footer.vue'
 
-// préparer les données
+import PhotoYoussef   from '../assets/image3.jpeg'
+import PhotoHassan    from '../assets/image4.jpeg'
+import PhotoKarim     from '../assets/image1.jpeg'
+import PhotoAdil     from '../assets/image6.jpeg'
+ import PhotoIssam      from '../assets/image11.png'
+ import PhotoOmar      from '../assets/image9.jpeg'
+ import PhotoTariq     from '../assets/image12.jpg'
+ import PhotoMehdi     from '../assets/image13.jpg'
+  import PhotoAmine     from '../assets/image14.png'
+   import PhotoRachid     from '../assets/image10.jpeg'
+
 const photos = [
   PhotoYoussef, PhotoHassan, PhotoKarim,
-  PhotoNadia, PhotoAdil,
-  PhotoSara, PhotoIssam,
-  PhotoSofia
+   PhotoAdil,
+   PhotoIssam,PhotoOmar,PhotoTariq,PhotoMehdi,PhotoAmine,PhotoRachid
 ]
+
+import Footer            from '../components/Footer.vue'
+
 const professionals = prosData.map((p,i)=>({
   ...p,
   photo: photos[i % photos.length]

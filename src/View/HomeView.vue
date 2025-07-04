@@ -63,11 +63,13 @@
         <!-- grille de pros -->
         <div class="pro-grid">
           <ProfessionalCard
-            v-for="p in pagedProfessionals"
-            :key="p.id"
-            v-bind="p"
-            @book="onBook"
-          />
+  v-for="p in pagedProfessionals"
+  :key="p.id"
+  v-bind="p"
+  @book="onBook"
+  @contact="onContact"
+/>
+
         </div>
 
         <!-- pagination -->
@@ -85,7 +87,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
       <div class="container contact-container">
         <!-- LEFT -->
         <div class="contact-left">
@@ -145,78 +147,33 @@ const servicesWithIcon = rawServices.map((s, i) => ({
   icon: serviceIcons[i % serviceIcons.length]
 }))
 
-// Professionals + photos
-import PhotoYoussef   from '../assets/youssef.png'
-import PhotoHassan    from '../assets/hassan.png'
-import PhotoKarim     from '../assets/karim.png'
-import PhotoNadia     from '../assets/nadia.png'
- import PhotoAdil      from '../assets/adil.png'
- import PhotoSara      from '../assets/sara.png'
- import PhotoIssam     from '../assets/issam.png'
- import PhotoSofia     from '../assets/sofia.png'
-// import PhotoAnas      from '../assets/anas.png'
-// import PhotoLeila     from '../assets/leila.png'
-// import PhotoMohamed   from '../assets/mohamed.png'
-// import PhotoImane     from '../assets/imane.png'
-// import PhotoRachid    from '../assets/rachid.png'
-
-
-//   {
-//     "id": 9,
-//     "name": "Anas Tazi",
-//     "category": "Menuiserie",
-//     "location": "Marrakech Gueliz",
-//     "rating": 4.9,
-//     "reviews": 55
-//   },
-
-//   {
-//     "id": 10,
-//     "name": "Leila Zahra",
-//     "category": "Peinture",
-//     "location": "Fès El Batha",
-//     "rating": 4.7,
-//     "reviews": 43
-//   },
-//   {
-//     "id": 11,
-//     "name": "Mohamed El Khatib",
-//     "category": "Peinture",
-//     "location": "Fès Medina",
-//     "rating": 4.5,
-//     "reviews": 27
-//   },
-
-//   {
-//     "id": 12,
-//     "name": "Imane Oulhaj",
-//     "category": "Bricolage",
-//     "location": "Tangier Centre",
-//     "rating": 4.8,
-//     "reviews": 36
-//   },
-//   {
-//     "id": 13,
-//     "name": "Rachid Tahiri",
-//     "category": "Bricolage",
-//     "location": "Tangier Sud",
-//     "rating": 4.6,
-//     "reviews": 22
-//   }
-// ]
-
+import PhotoYoussef   from '../assets/image3.jpeg'
+import PhotoHassan    from '../assets/image4.jpeg'
+import PhotoKarim     from '../assets/image1.jpeg'
+import PhotoAdil     from '../assets/image6.jpeg'
+ import PhotoIssam      from '../assets/image11.png'
+ import PhotoOmar      from '../assets/image9.jpeg'
+ import PhotoTariq     from '../assets/image12.jpg'
+ import PhotoMehdi     from '../assets/image13.jpg'
+  import PhotoAmine     from '../assets/image14.png'
+   import PhotoRachid     from '../assets/image10.jpeg'
 
 const photos = [
   PhotoYoussef, PhotoHassan, PhotoKarim,
-  PhotoNadia, PhotoAdil,
-  PhotoSara, PhotoIssam,
-  PhotoSofia
+   PhotoAdil,
+   PhotoIssam,PhotoOmar,PhotoTariq,PhotoMehdi,PhotoAmine,PhotoRachid
 ]
 
 const professionals = prosData.map((p, i) => ({
   ...p,
   photo: photos[i]
 }))
+
+function onContact(id) {
+  const el = document.getElementById('contact')
+  if (el) el.scrollIntoView({ behavior: 'smooth' })
+}
+
 
 // Filters & pagination
 const categories     = [...new Set(professionals.map(p => p.category))]

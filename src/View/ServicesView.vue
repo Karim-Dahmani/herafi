@@ -53,12 +53,15 @@ const services = servicesData.map((s,i)=>({
 // aperçu marketplace : 3 premiers pros
 import prosData          from '../data/professionals.json'
 import ProfessionalCard  from '../components/ProfessionalCard.vue'
-import PhotoSophie       from '../assets/karim.png'
-import PhotoMoussa       from '../assets/sofia.png'
-import PhotoAlice        from '../assets/youssef.png'
-import Footer            from '../components/Footer.vue'
 
-const photos = [ PhotoSophie, PhotoMoussa, PhotoAlice ]
+import PhotoYoussef   from '../assets/image3.jpeg'
+import PhotoHassan    from '../assets/image4.jpeg'
+import PhotoKarim     from '../assets/image1.jpeg'
+
+
+
+
+const photos = [PhotoYoussef, PhotoHassan, PhotoKarim]
 const professionals = prosData.map((p,i)=>({
   ...p,
   photo: photos[i % photos.length]

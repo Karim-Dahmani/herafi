@@ -30,10 +30,6 @@ Devis gratuit en ligne        </router-link>
   </section>
 </template>
 
-<script setup>
-import heroImg from '../assets/hero.png'
-</script>
-
 <style scoped>
 .hero {
   position: relative;
