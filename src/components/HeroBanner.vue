@@ -14,7 +14,7 @@ Devis gratuit en ligne        </router-link>
       </div>
       <div class="stats">
         <div class="stat">
-          <div class="number">1000+</div>
+          <div class="number">70</div>
           Artisans certifiés
         </div>
         <div class="stat">
