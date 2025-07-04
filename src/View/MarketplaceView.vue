@@ -93,7 +93,32 @@ const professionals = prosData.map((p,i)=>({
 
 // filtres
 const categories     = [...new Set(professionals.map(p=>p.category))]
-const locations      = [...new Set(professionals.map(p=>p.location))]
+const locations = [
+  "Aïn Harrouda",
+  "Berrechid",
+  "Benslimane",
+  "Casablanca Aïn Chock",
+  "Casablanca Aïn Sebaâ",
+  "Casablanca Al Fida",
+  "Casablanca Anfa",
+  "Casablanca Ben M’Sick",
+  "Casablanca Hay Hassani",
+  "Casablanca Hay Mohammadi",
+  "Casablanca Maârif",
+  "Casablanca Mers Sultan",
+  "Casablanca Moulay Rachid",
+  "Casablanca Roches Noires",
+  "Casablanca Sbata",
+  "Casablanca Sidi Belyout",
+  "Casablanca Sidi Bernoussi",
+  "Casablanca Sidi Moumen",
+  "Casablanca Sidi Othmane",
+  "El Jadida",
+  "Médiouna",
+  "Mohammedia",
+  "Nouaceur",
+  "Settat"
+]
 const availabilities = ['Disponible maintenant', 'Sur rendez-vous', 'Week-end']
 
 const selectedCategory     = ref('')
